@@ -1,0 +1,25 @@
+{
+  "name": "mynew_project",
+  "description": "gruntjsbower.io project",
+  "main": "server.js",
+  "authors": [
+    "nizamuddinkhan"
+  ],
+  "license": "ISC",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node",
+    "yui"
+  ],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "app/components",
+    "test",
+    "tests"
+  ]
+}

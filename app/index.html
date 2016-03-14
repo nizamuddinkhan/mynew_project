@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test Document</title>
+    <link rel="stylesheet" type="text/css" href="styles/main.css">
+</head>
+<body>
+       <h2>Hello Grunt!</h2>
+       <br>
+       <form id="formfile" action="formpost.html">
+             Firstname:<input type="text" name="firstname" placeholder="Enter Firstname"><br><br>
+             Lastname:<input type="text" name="lastname" placeholder="Enter Lastname">
+             <input type="submit" onclick="myFunction()">
+       </form>
+     <script>
+             function myFunction() 
+             {
+             document.getElementById("formfile").submit();
+            }
+    </script>
+    <script src="http://localhost:35729/livereload.js"></script>
+</body>
+</html>
